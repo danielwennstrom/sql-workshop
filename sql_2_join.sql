@@ -38,7 +38,7 @@ SELECT CountryCode FROM world.city GROUP BY CountryCode HAVING COUNT(*) > 200;
 SELECT CountryCode FROM world.city GROUP BY CountryCode HAVING COUNT(*) > 200 ORDER BY COUNT(*);
 #
 # 13: What language(s) is spoken in the city with a population between 400 and 500 ?
-Italian and Latin
+Italian
 #
 # 14: What are the name(s) of the cities with a population between 500 and 600 people and the language(s) spoken in them
 The Valley (English), Bantam (Malay, English), Yaren (Nauruan, English)
@@ -93,7 +93,14 @@ The Valley (English), Bantam (Malay, English), Yaren (Nauruan, English)
 'Koror'
 #
 # 19: What unique languages are spoken in the countries in the same region as the city named Riga
-Estonian, Lithuanian,  Latvian
+'Belorussian'
+'Estonian'
+'Finnish'
+'Russian'
+'Ukrainian'
+'Lithuanian'
+'Polish'
+'Latvian'
 #
 # 20: Get the name of the most populous city
 Mumbai
