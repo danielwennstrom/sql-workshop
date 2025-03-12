@@ -41,7 +41,14 @@ SELECT CountryCode FROM world.city GROUP BY CountryCode HAVING COUNT(*) > 200 OR
 Italian
 #
 # 14: What are the name(s) of the cities with a population between 500 and 600 people and the language(s) spoken in them
-The Valley (English), Bantam (Malay, English), Yaren (Nauruan, English)
+'The Valley', 'English'
+'Bantam', 'English'
+'Bantam', 'Malay'
+'Yaren', 'Chinese'
+'Yaren', 'English'
+'Yaren', 'Kiribati'
+'Yaren', 'Nauru'
+'Yaren', 'Tuvalu'
 #
 # 15: What names of the cities are in the same country as the city with a population of 122199 (including the that city itself)
 'Stockholm'
